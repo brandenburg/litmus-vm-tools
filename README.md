@@ -1,8 +1,9 @@
-This is a Vagrant VM image for getting up and running with LITMUS^RT
+# LITMUS^RT Vagrant Virtual Machine
+
+This is a Vagrant repository for getting up and running with LITMUS^RT
 development.
 
-Getting Started
-===============
+## Getting Started
 
 First follow the instructions at http://www.vagrantup.com/ to install
 Vagrant on your system. Vagrant is a configuration-management software
@@ -36,8 +37,7 @@ You may also just want to just append this to you SSH configuration file:
     $ vagrant ssh-config >> $HOME/.ssh/config
 
 
-The VM Environment
-==================
+## The VM Environment
 
 The VM image is based on Ubuntu Precise Pangolin 64-bit (LTS release
 supported till 2017). The latest (at the time of writing this) LITMUS^RT
